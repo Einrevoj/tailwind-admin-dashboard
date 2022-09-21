@@ -15,7 +15,7 @@ function App() {
     <>
       <BrowserRouter>
         <TopBar />
-        <div className="container">
+        <div className="flex">
           <Sidebar />
           <Routes>
             <Route path="/" element={<Home />} />

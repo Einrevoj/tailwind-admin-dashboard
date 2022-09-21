@@ -19,55 +19,55 @@ import { Link } from "react-router-dom";
 export default function Sidebar() {
   return (
     <div class="flex flex-row min-h-screen bg-gray-100 text-gray-500">
-      <aside class="sidebar w-64 md:shadow transform -translate-x-full md:translate-x-0 transition-transform duration-150 ease-in bg-indigo-500">
+      <aside class="sidebar w-64 md:shadow transform -translate-x-full md:translate-x-0 transition-transform duration-150 ease-in bg-gray-500">
         <div class="sidebar-header flex items-center justify-center py-4">
           <div class="inline-flex">
-            <a href="#" class="inline-flex flex-row items-center">
+            <Link to="/" class="inline-flex flex-row items-center">
               <span class="leading-10 text-gray-100 text-2xl font-bold ml-1 uppercase">
                 VCA
               </span>
-            </a>
+            </Link>
           </div>
         </div>
         <div class="sidebar-content px-4 py-6">
           <ul class="flex flex-col w-full">
             <li class="my-px">
-              <a
-                href="#"
+              <Link
+                to="/"
                 class="flex flex-row items-center h-10 px-3 rounded-lg text-gray-700 bg-gray-100"
               >
                 <span class="flex items-center justify-center text-lg text-gray-400">
                   <HomeIcon />
                 </span>
                 <span class="ml-3">Dashboard</span>
-              </a>
+              </Link>
             </li>
             <li className="my-px">
-              <a
-                href="#"
+              <Link
+                to="/"
                 class="flex flex-row items-center h-10 px-3 rounded-lg text-gray-300 hover:bg-gray-100 hover:text-gray-700"
               >
                 <LineStyle />
                 <span class="ml-3">Home</span>
-              </a>
+              </Link>
             </li>
             <li className="my-px">
-              <a
-                href="#"
+              <Link
+                to="/"
                 class="flex flex-row items-center h-10 px-3 rounded-lg text-gray-300 hover:bg-gray-100 hover:text-gray-700"
               >
                 <Timeline />
                 <span class="ml-3">Analytics</span>
-              </a>
+              </Link>
             </li>
             <li className="my-px">
-              <a
-                href="#"
+              <Link
+                to="/"
                 class="flex flex-row items-center h-10 px-3 rounded-lg text-gray-300 hover:bg-gray-100 hover:text-gray-700"
               >
                 <TrendingUp />
                 <span class="ml-3">Sales</span>
-              </a>
+              </Link>
             </li>
             <li class="my-px">
               <span class="flex font-medium text-sm text-gray-300 px-4 my-4 uppercase">
@@ -75,40 +75,40 @@ export default function Sidebar() {
               </span>
             </li>
             <li className="my-px">
-              <a
-                href="#"
+              <Link
+                to="/users"
                 class="flex flex-row items-center h-10 px-3 rounded-lg text-gray-300 hover:bg-gray-100 hover:text-gray-700"
               >
                 <PermIdentity />
                 <span class="ml-3">Users</span>
-              </a>
+              </Link>
             </li>
             <li className="my-px">
-              <a
-                href="#"
+              <Link
+                to="/products"
                 class="flex flex-row items-center h-10 px-3 rounded-lg text-gray-300 hover:bg-gray-100 hover:text-gray-700"
               >
                 <Storefront />
                 <span class="ml-3">Products</span>
-              </a>
+              </Link>
             </li>
             <li className="my-px">
-              <a
-                href="#"
+              <Link
+                to="/"
                 class="flex flex-row items-center h-10 px-3 rounded-lg text-gray-300 hover:bg-gray-100 hover:text-gray-700"
               >
                 <AttachMoney />
                 <span class="ml-3">Transactions</span>
-              </a>
+              </Link>
             </li>
             <li className="my-px">
-              <a
-                href="#"
+              <Link
+                to="/"
                 class="flex flex-row items-center h-10 px-3 rounded-lg text-gray-300 hover:bg-gray-100 hover:text-gray-700"
               >
                 <BarChart />
                 <span class="ml-3">Reports</span>
-              </a>
+              </Link>
             </li>
 
             <li class="my-px">
@@ -149,13 +149,13 @@ export default function Sidebar() {
               </span>
             </li>
             <li className="my-px">
-              <a
-                href="#"
+              <Link
+                to="users"
                 class="flex flex-row items-center h-10 px-3 rounded-lg text-gray-300 hover:bg-gray-100 hover:text-gray-700"
               >
                 <WorkOutline />
                 <span class="ml-3">Manage</span>
-              </a>
+              </Link>
             </li>
             <li className="my-px">
               <a
